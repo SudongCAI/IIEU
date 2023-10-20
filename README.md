@@ -44,4 +44,4 @@ python3 validate.py <path_to_imagenet> --model iieub_resnet14 --checkpoint <path
 * The .xlsx file of the detailed original records of Acc. Eval. (per epoch) and Loss Values Train. are provided (a cleaned version of .csv files, can be found in the above link).
 * For reference, the CIFAR-100 code can also be found in the above link.
 * Constrained by coding ability, the code may not be optimal w.r.t. memory and speed/runtime.
-* Please note that this project code does not include the definition files of Erfact, Pserf, and SMU(s) as they have not been officially released. If needed, it is recommended to request them from the original author(s).
+* Please note that this project code does not include the definition files of Erfact, Pserf, and SMU(s) (potential permission issues may have). If needed, it is recommended to request them from the original author(s).
