@@ -199,5 +199,5 @@ def gelu_mobilenetv2(**kwargs):
 @register_model
 def gelu_mobilenetv2(pretrained=False, **kwargs):
     return build_model_with_cfg(
-        MobileNetV2(width_mult=0.17), 'gelu_mobilenetv2', default_cfg=default_cfg['mobilenetv2'],
+        MobileNetV2, 'gelu_mobilenetv2', default_cfg=default_cfg['mobilenetv2'],
         pretrained=pretrained, **kwargs)
